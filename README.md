@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.com/gengo/automation-tests.svg?token=xarxf4KDES8keEsqzbCW&branch=master)](https://travis-ci.com/gengo/automation-tests)
-
-# The Gengo UI Automation Tests
+# The automation-tests
+## A Java for Selenium API powered Framework that uses Page Object Model 
 
 This contains all scripts for automating Gengo systems regression tests using Java for Selenium.
 
