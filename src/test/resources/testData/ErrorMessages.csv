@@ -1,0 +1,21 @@
+MESSAGES
+URL is not right as expected.
+Element is not found
+Text is not equal to expected
+Element is enabled
+Element is not enabled
+Element is displayed
+Element is not displayed
+Amount is not matched as expected
+Full name is required
+Please enter a display name.
+The Current password field is required.
+The password you entered is incorrect.
+The New password field does not match the New password (again) field.
+The New password field must be at least 5 characters in length.
+The new_email field is required.
+The new_email field does not match the new_email_again field.
+Sorry, we were unable to update your email address - please contact support if the problem persists.
+Sorry, we were unable to update your email address - please contact support if the problem persists.
+Sorry, your credit card has been declined - please contact support.
+Number of elements selected is wrong.

@@ -1,0 +1,50 @@
+EMAIL,SOURCE LANGUAGE,TARGET LANGUAGE,"RANK [Standard, Pro(Business), Proofread(Ultra), Senior Translator]","isAdded (Yes, No)"
+gengo.automationtest+t26@gmail.com,English,Tagalog,Standard,Yes
+gengo.automationtest+t26@gmail.com,English,Tagalog,Pro (Business),Yes
+gengo.automationtest+t26@gmail.com,Japanese,Chinese (Simplified),Standard,Yes
+gengo.automationtest+t26@gmail.com,Japanese,Chinese (Simplified),Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,English,Tagalog,Standard,Yes
+gengo.automationtest+t27@gmail.com,English,Tagalog,Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,Japanese,Chinese (Simplified),Standard,Yes
+gengo.automationtest+t27@gmail.com,Japanese,Chinese (Simplified),Pro (Business),Yes
+gengo.automationtest+t26@gmail.com,English,Japanese,Standard,Yes
+gengo.automationtest+t26@gmail.com,English,Japanese,Pro (Business),Yes
+gengo.automationtest+t26@gmail.com,Japanese,English,Standard,Yes
+gengo.automationtest+t26@gmail.com,Japanese,English,Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,English,Japanese,Standard,Yes
+gengo.automationtest+t27@gmail.com,English,Japanese,Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,Japanese,English,Standard,Yes
+gengo.automationtest+t27@gmail.com,Japanese,English,Pro (Business),Yes
+gengo.automationtest+t26@gmail.com,English,Spanish (Spain),Standard,Yes
+gengo.automationtest+t26@gmail.com,English,Spanish (Spain),Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,English,Spanish (Spain),Standard,Yes
+gengo.automationtest+t27@gmail.com,English,Spanish (Spain),Pro (Business),Yes
+qa_admin+translatorpro4@gengo.com,English,Spanish (Spain),Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Spanish (Spain),Pro (Business),Yes
+qa_admin+translatorstandard4@gengo.com,English,Spanish (Spain),Standard,Yes
+qa_admin+translatorstandard4@gengo.com,English,Tagalog,Standard,Yes
+qa_admin+translatorstandard4@gengo.com,Japanese,Chinese (Simplified),Standard,Yes
+qa_admin+translatorstandard4@gengo.com,Japanese,English,Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Tagalog,Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Tagalog,Pro (Business),Yes
+qa_admin+translatorpro4@gengo.com,Japanese,Chinese (Simplified),Standard,Yes
+qa_admin+translatorpro4@gengo.com,Japanese,Chinese (Simplified),Pro (Business),Yes
+qa_admin+translatorpro4@gengo.com,Japanese,English,Standard,Yes
+qa_admin+translatorpro4@gengo.com,Japanese,English,Pro (Business),Yes
+qa_admin+translatorpro4@gengo.com,English,Japanese,Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Japanese,Pro (Business),Yes
+qa_admin+translatorstandard4@gengo.com,English,Danish,Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Danish,Standard,Yes
+qa_admin+translatorpro4@gengo.com,English,Danish,Pro (Business),Yes
+gengo.automationtest+t27@gmail.com,English,Danish,Standard,Yes
+gengo.automationtest+t27@gmail.com,English,Danish,Pro (Business),Yes
+gengo.automationtest+t26@gmail.com,English,Danish,Standard,Yes
+gengo.automationtest+t26@gmail.com,English,Danish,Pro (Business),Yes
+gengo.automationtest+t29@gmail.com,English,Tagalog,Standard,Yes
+gengo.automationtest+t29@gmail.com,English,Tagalog,Pro (Business),Yes
+gengo.automationtest+t29@gmail.com,Japanese,Chinese (Simplified),Standard,Yes
+gengo.automationtest+t29@gmail.com,Japanese,Chinese (Simplified),Pro (Business),Yes
+gengo.automationtest+t29@gmail.com,Japanese,English,Standard,Yes
+gengo.automationtest+t29@gmail.com,Japanese,English,Pro (Business),Yes
+gengo.automationtest+t29@gmail.com,English,Japanese,Standard,Yes
+gengo.automationtest+t29@gmail.com,English,Japanese,Pro (Business),Yes

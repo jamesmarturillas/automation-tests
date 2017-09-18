@@ -1,0 +1,117 @@
+package com.gengo.automation.tests.CoreTest;
+
+import com.gengo.automation.fields.Constants;
+import com.gengo.automation.global.AutomationBase;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+
+import static org.testng.Assert.assertTrue;
+
+/**
+ * @case Verify that the placement of job using USD currency is working as expected.
+ * @reference https://gengo.testrail.com/index.php?/cases/view/40353
+ */
+public class C40353_20_OrderUsingUSDCurrency extends AutomationBase {
+
+    private String[] itemToTranslates;
+    private String[] unitCounts;
+
+    public C40353_20_OrderUsingUSDCurrency() throws IOException {}
+
+    @BeforeClass
+    public void initFields() throws IOException{
+        this.newUser = csv.generateNewUser(var.SHEETNAME_CUSTOMERS, 0);
+        itemToTranslates = new String[] {
+                var.getItemToTranslate(25),
+                var.getItemToTranslate(26),
+                var.getItemToTranslate(27),
+        };
+        unitCounts = new String[] {
+                var.getUnitCountSource(25),
+                var.getUnitCountSource(26),
+                var.getUnitCountSource(27),
+        };
+    }
+
+    @AfterClass
+    public void afterRun() throws IOException {
+        csv.writeValue(this.newUser, var.SHEETNAME_CUSTOMERS, 0);
+        Reporter.log("Done running '" + this.getClass().getSimpleName() + "'", true);
+    }
+
+    @Test(description = "Use a new account as conditional case for database reset")
+    public void createCustomerAccount() {
+        globalMethods.createNewCustomer(this.newUser, false, Constants.CURRENCY_USD);
+    }
+
+    @Test(dependsOnMethods = "createCustomerAccount", description = "WITHOUT CREDITS - Retail - GROUPED JOBS (PRO) - PayPal")
+    public void placeAnOrder() {
+        pluginPage.passThisPage();
+
+        // Assert that homepage 'SIGN IN' link is displayed.
+        assertTrue(homePage.getSignIn().isDisplayed(),
+                var.getElementNotFoundErrMsg());
+
+        homePage.clickSignInButton();
+
+        // Check that after clicking the 'SIGN IN' link, the URL is right and 'SIGN UP' button is displayed as well.
+        assertTrue(page.getCurrentUrl().equals(loginPage.LOGIN_PAGE_URL),
+                var.getWrongUrlErrMsg());
+        assertTrue(loginPage.getSignUpBtn().isDisplayed(),
+                var.getElementNotFoundErrMsg());
+
+        loginPage.loginAccount(this.newUser, var.getDefaultPassword());
+
+        // Assert that page title is present in the DOM.
+        assertTrue(global.getPageTitle().isDisplayed(),
+                var.getElementIsNotDisplayedErrMsg());
+
+        // Click the order translation icon beside the name dropdown.
+        global.clickOrderTranslationIcon();
+
+        // Input all item to translate.
+        customerOrderFormPage.inputItemToTranslate(itemToTranslates, unitCounts, itemToTranslates.length, false);
+
+        // Assert that the page url after submitting is correct.
+        assertTrue(page.getCurrentUrl().equals(customerOrderLanguagesPage.ORDERLANGUAGES_URL),
+                var.getWrongUrlErrMsg());
+
+        // Assert that the source language is auto detected and English.
+        assertTrue(customerOrderLanguagesPage.isSourceAutoDetected(),
+                var.getTextNotEqualErrMsg());
+
+        // Choose Japanese as target language.
+        customerOrderLanguagesPage.choooseLanguage(var.getEnglishBritishTo());
+        customerOrderLanguagesPage.clickNextOptions();
+
+        // Order as Pro.
+        customerCheckoutPage.businessTier(true);
+
+        // Order as group.
+        customerCheckoutPage.orderAsAGroup();
+
+        customerCheckoutPage.clickPayNowAndConfirm(true, false, false, false, false);
+
+        // Assert that order is complete by checking the return URL.
+        assertTrue(page.getCurrentUrl().contains
+                (customerOrderCompletePage.ORDERCOMPLETE_URL), var.getWrongUrlErrMsg());
+
+        // Assert that the price deducted is right.
+        assertTrue(customerOrderCompletePage.isDeductedRight
+                (customerOrderCompletePage.extractedUnitCount(), Constants.USD_PRO_EN_ENGB_POINT07), var.getTextNotEqualErrMsg());
+
+        // Go back to the customer dashboard.
+        customerOrderCompletePage.clickGoToDashboard();
+        assertTrue(customerDashboardPage.getCustomerDashboardText()
+                .isDisplayed(), var.getElementIsNotDisplayedErrMsg());
+
+        // Sign out
+        global.nonAdminSignOut();
+        assertTrue(homePage.getSignIn().isDisplayed(),
+                var.getElementIsNotDisplayedErrMsg());
+    }
+}

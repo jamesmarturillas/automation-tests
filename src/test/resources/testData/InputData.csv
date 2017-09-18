@@ -1,0 +1,28 @@
+TYPE,DATA
+Full Name,QA Testing
+First Name,Quality
+Last Name,Assurance
+Address 1,Sample Address 1
+Address 2,Sample Address 2
+Town,Mandaluyong
+State,Manila
+Zip Code,1552
+Customer comment,A plain comment from a customer.
+Translator comment,This is a plain comment from a translator.
+Customer comment 1,Note that this text contains slightly dated terms.
+Customer comment 2,This text will be used for a TV commercial meant to target the millennial audience.
+Customer comment 3,Please be mindful of the capitalization and punctuation marks.
+Customer comment 4,Thank you. I will update you if there are any more changes.
+Customer comment 5,"Thanks, I cannot wait to see the final entry."
+Translator comment 1,I need clarification on the tone of message.
+Translator comment 2,Confirming if the text tone is formal/business?
+Translator comment 3,Thank you for your feedback.
+Translator comment 4,Noted. I will make the necessary updates as requested.
+Translator comment 5,Pointers duly acknowledged.
+Translator comment 6,Please let me know if you have any additional comments.
+Customer request correction,I found some issues with regards to the spelling and placement of punctuation marks and acronyms.
+Translator flag comment,This text does not reflect the tone and message initially placed by the customer in the description.
+Customer instruction,This text to be translated is the content of an e-commerce website that I created and I need it to be in an optimistic voice. This content is intended to target young adults to middle-aged people.
+Checker feedback, This is good translation. Keep up the good work.
+Translator comment with html and brackets,Comments with [[[triple brackets]]] and <a href=”#”>html</a><div class=”test”>tags</div>
+Character comment,これはサンプルコメントです

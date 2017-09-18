@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="workbench_suite" verbose="1" >
+    <test name="workbench">
+        <classes>
+            <class name="com.gengo.automation.tests.Workbench.C252_KeyboardShortcuts"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_1_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_2_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_3_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_4_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_5_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_6_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_7_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C234_8_CommentRWAndFlag"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_1_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_2_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_3_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_4_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_5_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_6_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_7_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C235_8_ChangeLayout"/>
+            <class name="com.gengo.automation.tests.Workbench.C236_1_StatusFilter"/>
+            <class name="com.gengo.automation.tests.Workbench.C236_2_StatusFilter"/>
+            <class name="com.gengo.automation.tests.Workbench.C236_3_StatusFilter"/>
+            <class name="com.gengo.automation.tests.Workbench.C236_4_StatusFilter"/>
+            <class name="com.gengo.automation.tests.Workbench.C238_1_Nav"/>
+            <class name="com.gengo.automation.tests.Workbench.C238_2_Nav"/>
+            <class name="com.gengo.automation.tests.Workbench.C238_3_Nav"/>
+            <class name="com.gengo.automation.tests.Workbench.C238_4_Nav"/>
+            <class name="com.gengo.automation.tests.Workbench.C239_1_JobCancelled"/>
+            <class name="com.gengo.automation.tests.Workbench.C239_2_JobCancelled"/>
+            <class name="com.gengo.automation.tests.Workbench.C242_1_DeclineJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C242_2_DeclineJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C243_AutoSave"/>
+            <class name="com.gengo.automation.tests.Workbench.C244_QuickSubmitBeforeAutoSave"/>
+            <class name="com.gengo.automation.tests.Workbench.C248_LeftPanelInformation"/>
+            <class name="com.gengo.automation.tests.Workbench.C249_RightPanelInformation"/>
+            <class name="com.gengo.automation.tests.Workbench.C250_1_GlossaryTripleBracketsAndHTMLSuggestion"/>
+            <class name="com.gengo.automation.tests.Workbench.C250_2_GlossaryTripleBracketsAndHTMLSuggestion"/>
+            <class name="com.gengo.automation.tests.Workbench.C250_3_GlossaryTripleBracketsAndHTMLSuggestion"/>
+            <class name="com.gengo.automation.tests.Workbench.C250_4_GlossaryTripleBracketsAndHTMLSuggestion"/>
+
+            <class name="com.gengo.automation.tests.Workbench.C18314_CollectionInformation"/>
+            <class name="com.gengo.automation.tests.Workbench.C796_TranslatorCantSubmitEmptyTranslation"/>
+            <class name="com.gengo.automation.tests.Workbench.C254_RevisingJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C284_RequestedJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C273_Auto_Save"/>
+            <class name="com.gengo.automation.tests.Workbench.C295_CannotEditSubmittedAndApprovedJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C265_ChangeLayoutAndFocus"/>
+            <class name="com.gengo.automation.tests.Workbench.C269_JobCancelled"/>
+            <class name="com.gengo.automation.tests.Workbench.C253_CheckHighlights"/>
+            <class name="com.gengo.automation.tests.Workbench.C264_CommentRWAndFlagForJobs"/>
+            <class name="com.gengo.automation.tests.Workbench.C8755_WordsInsideTripleBracketsIsAGlossaryTerm"/>
+            <class name="com.gengo.automation.tests.Workbench.C297_CannotEditSubmittedAndApprovedJob"/>
+            <class name="com.gengo.automation.tests.Workbench.C8765_ConsistentLabelForSeniorTranslatorOnJobInfoAndComments"/>
+            <class name="com.gengo.automation.tests.Workbench.C54344_JobIdAndStatusInfo"/>
+            <class name="com.gengo.automation.tests.Workbench.C275_TwoTranslatorOnAGroupedJob"/>
+
+        </classes>
+    </test>
+</suite>

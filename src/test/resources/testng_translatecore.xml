@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="translate_core_suite" verbose="1" >
+    <test name="translate_core">
+        <classes>
+            <!--Translate Core suite classes-->
+            <class name="com.gengo.automation.tests.TranslateCore.C1_CreateNewCustomerAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C2_CreateNewTranslatorAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C3_1_CreateNewAccountWithFacebookAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C3_2_CreateNewAccountWithFacebookAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C4_1_CreateNewAccountWithGoogleAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C4_2_CreateNewAccountWithGoogleAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C26_ForSingleJob"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C27_ForGroupJob"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C28_ForFileJob"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C230_CantCreateNewAccountUsingSameEmailAddress"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C258_DeleteCustomerAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C259_DeleteTranslatorAccount"/>
+
+            <class name="com.gengo.automation.tests.TranslateCore.C43929_ChangeAddressDetails"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C43930_ChangeTimezone"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C43931_ChangeDisplayName"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C43932_ChangeEmail"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C43933_ChangePassword"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C18316_TopUpUsingInvalidCreditCards"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C18310_ManagePaymentMethod"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C31_TopUpPayPal"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C18301_TopUpStripe"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C30_CloseAccount"/>
+            <class name="com.gengo.automation.tests.TranslateCore.C231_CannotSetCurrencyWhenTheAccountAlreadyHaveCredits"/>
+        </classes>
+    </test>
+</suite>

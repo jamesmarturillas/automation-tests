@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="admin_suite" verbose="1" >
+    <test name="admin">
+        <classes>
+            <class name="com.gengo.automation.tests.Admin.C18359_1_CancelAvailableGroupedOrders"/>
+            <class name="com.gengo.automation.tests.Admin.C18359_2_CancelAvailableGroupedOrders"/>
+            <class name="com.gengo.automation.tests.Admin.C18359_3_CancelAvailableGroupedOrders"/>
+            <class name="com.gengo.automation.tests.Admin.C8724_1_Comment"/>
+            <class name="com.gengo.automation.tests.Admin.C8724_2_Comment"/>
+            <class name="com.gengo.automation.tests.Admin.C8724_3_Comment"/>
+            <class name="com.gengo.automation.tests.Admin.C8724_4_Comment"/>
+            <class name="com.gengo.automation.tests.Admin.C8769_1_RewardCurrencyAlwaysUSD"/>
+            <class name="com.gengo.automation.tests.Admin.C8769_2_RewardCurrencyAlwaysUSD"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_1_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_2_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_3_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_4_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_5_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_6_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18296_7_CanViewJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18297_1_EditJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18297_2_EditJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18297_3_EditJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18297_4_EditJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18297_5_EditJobTitle"/>
+            <class name="com.gengo.automation.tests.Admin.C18349_1_CancelJobs"/>
+            <class name="com.gengo.automation.tests.Admin.C18349_2_CancelJobs"/>
+            <class name="com.gengo.automation.tests.Admin.C18349_3_CancelJobs"/>
+            <class name="com.gengo.automation.tests.Admin.C18349_4_CancelJobs"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_1_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_2_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_3_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_4_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_5_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_6_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_7_CanForceApproveJob"/>
+            <class name="com.gengo.automation.tests.Admin.C18361_8_CanForceApproveJob"/>
+        </classes>
+    </test>
+</suite>
