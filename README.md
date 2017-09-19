@@ -1,7 +1,6 @@
 # The automation-tests
-## A Java for Selenium API powered Framework that uses Page Object Model 
 
-This contains all scripts for automating Gengo systems regression tests using Java for Selenium.
+A Java for Selenium API powered Framework that uses Page Object Model 
 
 
 ## What's inside?
