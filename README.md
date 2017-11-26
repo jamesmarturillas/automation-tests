@@ -1,4 +1,4 @@
-# The automation-tests
+# The selenium-pom-framework
 
 A Java for Selenium API powered Framework that uses Page Object Model 
 
